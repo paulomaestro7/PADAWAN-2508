@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PADAWAN-2508", "PADAWAN-2508\PADAWAN-2508.csproj", "{8636DB05-F646-4F99-9480-2C7611DB52E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PADAWAN-2508-DEMO1", "PADAWAN-2508-DEMO1\PADAWAN-2508-DEMO1.csproj", "{61B12B5B-3321-4135-A5F0-6FD8227BAB6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8636DB05-F646-4F99-9480-2C7611DB52E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8636DB05-F646-4F99-9480-2C7611DB52E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8636DB05-F646-4F99-9480-2C7611DB52E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8636DB05-F646-4F99-9480-2C7611DB52E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B12B5B-3321-4135-A5F0-6FD8227BAB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B12B5B-3321-4135-A5F0-6FD8227BAB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B12B5B-3321-4135-A5F0-6FD8227BAB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B12B5B-3321-4135-A5F0-6FD8227BAB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9CD7F85-120A-4E35-9A0A-93A15938F177}
+	EndGlobalSection
+EndGlobal
