@@ -34,6 +34,9 @@
             this.txt_Telefone = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_Gravar = new System.Windows.Forms.Button();
+            this.lbl_Confirma = new System.Windows.Forms.Label();
+            this.btn_zerar = new System.Windows.Forms.Button();
+            this.lbl_Apagar = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -88,11 +91,40 @@
             this.btn_Gravar.UseVisualStyleBackColor = true;
             this.btn_Gravar.Click += new System.EventHandler(this.btn_Gravar_Click);
             // 
+            // lbl_Confirma
+            // 
+            this.lbl_Confirma.AutoSize = true;
+            this.lbl_Confirma.Location = new System.Drawing.Point(282, 200);
+            this.lbl_Confirma.Name = "lbl_Confirma";
+            this.lbl_Confirma.Size = new System.Drawing.Size(0, 15);
+            this.lbl_Confirma.TabIndex = 3;
+            // 
+            // btn_zerar
+            // 
+            this.btn_zerar.Location = new System.Drawing.Point(150, 270);
+            this.btn_zerar.Name = "btn_zerar";
+            this.btn_zerar.Size = new System.Drawing.Size(102, 28);
+            this.btn_zerar.TabIndex = 4;
+            this.btn_zerar.Text = "Zerar Arquivo";
+            this.btn_zerar.UseVisualStyleBackColor = true;
+            this.btn_zerar.Click += new System.EventHandler(this.btn_zerar_Click);
+            // 
+            // lbl_Apagar
+            // 
+            this.lbl_Apagar.AutoSize = true;
+            this.lbl_Apagar.Location = new System.Drawing.Point(282, 277);
+            this.lbl_Apagar.Name = "lbl_Apagar";
+            this.lbl_Apagar.Size = new System.Drawing.Size(0, 15);
+            this.lbl_Apagar.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_Apagar);
+            this.Controls.Add(this.btn_zerar);
+            this.Controls.Add(this.lbl_Confirma);
             this.Controls.Add(this.btn_Gravar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_Telefone);
@@ -114,6 +146,9 @@
         private System.Windows.Forms.TextBox txt_Telefone;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_Gravar;
+        private System.Windows.Forms.Label lbl_Confirma;
+        private System.Windows.Forms.Button btn_zerar;
+        private System.Windows.Forms.Label lbl_Apagar;
     }
 }
 

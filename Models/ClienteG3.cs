@@ -2,7 +2,7 @@
 
 namespace Models
 {
-    public class Cliente
+    public class ClienteG3
     {
         public string Nome { get; set; }
 

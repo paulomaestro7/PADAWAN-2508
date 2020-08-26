@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Ferramentas;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,10 +21,23 @@ namespace Grupo_3_WFA
 
         private void btn_Gravar_Click(object sender, EventArgs e)
         {
-            var cliente = new Cliente();
+            var cliente = new ClienteG3();
 
             cliente.Nome = txt_Nome.Text;
             cliente.Telefone = txt_Telefone.Text;
+
+            GravarClientesG3.Gravar(cliente);
+
+            txt_Nome.Text = "";
+            txt_Telefone.Text = "";
+
+            lbl_Confirma.Text = "Gravado com sucesso!";
+        }
+
+        private void btn_zerar_Click(object sender, EventArgs e)
+        {
+            GravarClientesG3.Apagar();
+            lbl_Apagar.Text = "Arquivo apagado com sucesso!";
         }
     }
 }
