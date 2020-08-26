@@ -18,6 +18,7 @@ namespace Grupo_5_WFA
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormClienteG5());
+            Application.Run(new FormEnderecoG5());
         }
     }
 }
