@@ -22,14 +22,19 @@ namespace Grupo_3_WFA
         {
             
 
-            cliente.Show();
+            cliente.ShowDialog();
             
 
         }
 
         private void btn_endereco_Click(object sender, EventArgs e)
         {
-            endereco.Show();
+            endereco.ShowDialog();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
