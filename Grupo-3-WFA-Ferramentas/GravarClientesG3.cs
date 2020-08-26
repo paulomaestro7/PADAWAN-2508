@@ -15,7 +15,7 @@ namespace Ferramentas
 
 
 
-            using (StreamWriter writer = new StreamWriter(@"C:\Users\gabriel.dainezi\Desktop\texto.txt", true))
+            using (StreamWriter writer = new StreamWriter(@"C:\Teste\cdCliente.txt", true))
             {
                 writer.WriteLine(texto);
             }
@@ -24,10 +24,12 @@ namespace Ferramentas
 
         public static void Apagar()
         {
-            using (StreamWriter writer = new StreamWriter(@"C:\Users\gabriel.dainezi\Desktop\texto.txt"))
+            using (StreamWriter writer = new StreamWriter(@"C:\Teste\cdCliente.txt"))
             {
             }
         }
 
     }
+
+   // public class GravarEndereco
 }

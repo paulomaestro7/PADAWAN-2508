@@ -25,12 +25,19 @@ namespace Grupo_3_WFA
             txt_Telefone.Text = "";
 
             lbl_Confirma.Text = "Gravado com sucesso!";
+
+            
         }
 
         private void btn_zerar_Click(object sender, EventArgs e)
         {
             GravarClientesG3.Apagar();
             lbl_Apagar.Text = "Arquivo apagado com sucesso!";
+        }
+
+        private void btn_voltarvoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
