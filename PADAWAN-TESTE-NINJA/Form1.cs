@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +32,8 @@ namespace PADAWAN_TESTE_NINJA
             txt_Sobre.Text =  resultPrint.Sobrenome;
 
             txt_ResultJson.Text = JsonConvert.SerializeObject(resultPrint);
+
+            File.WriteAllText(@"c:\Temp\texte.log", txt_ResultJson.Text);
         }
     }
 }
