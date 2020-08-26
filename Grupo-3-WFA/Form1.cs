@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,5 +18,12 @@ namespace Grupo_3_WFA
             InitializeComponent();
         }
 
+        private void btn_Gravar_Click(object sender, EventArgs e)
+        {
+            var cliente = new Cliente();
+
+            cliente.Nome = txt_Nome.Text;
+            cliente.Telefone = txt_Telefone.Text;
+        }
     }
 }
