@@ -44,31 +44,35 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(31, 24);
+            this.label3.Location = new System.Drawing.Point(46, 37);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 31);
+            this.label3.Size = new System.Drawing.Size(138, 46);
             this.label3.TabIndex = 2;
             this.label3.Text = "Nome:";
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // txt_Nome
             // 
             this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Nome.Location = new System.Drawing.Point(198, 26);
+            this.txt_Nome.Location = new System.Drawing.Point(297, 40);
+            this.txt_Nome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(165, 23);
+            this.txt_Nome.Size = new System.Drawing.Size(246, 30);
             this.txt_Nome.TabIndex = 4;
             this.txt_Nome.Text = "Teste";
             // 
             // txt_Sobre
             // 
-            this.txt_Sobre.Location = new System.Drawing.Point(198, 66);
+            this.txt_Sobre.Location = new System.Drawing.Point(297, 102);
+            this.txt_Sobre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_Sobre.Name = "txt_Sobre";
-            this.txt_Sobre.Size = new System.Drawing.Size(165, 20);
+            this.txt_Sobre.Size = new System.Drawing.Size(246, 26);
             this.txt_Sobre.TabIndex = 7;
             this.txt_Sobre.Text = "Teste";
             // 
@@ -76,17 +80,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 55);
+            this.label1.Location = new System.Drawing.Point(46, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 31);
+            this.label1.Size = new System.Drawing.Size(227, 46);
             this.label1.TabIndex = 6;
             this.label1.Text = "Sobrenome";
             // 
             // btn_Gravar
             // 
-            this.btn_Gravar.Location = new System.Drawing.Point(37, 103);
+            this.btn_Gravar.Location = new System.Drawing.Point(56, 158);
+            this.btn_Gravar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Gravar.Name = "btn_Gravar";
-            this.btn_Gravar.Size = new System.Drawing.Size(165, 94);
+            this.btn_Gravar.Size = new System.Drawing.Size(248, 145);
             this.btn_Gravar.TabIndex = 8;
             this.btn_Gravar.Text = "Gravar";
             this.btn_Gravar.UseVisualStyleBackColor = true;
@@ -94,9 +100,10 @@
             // 
             // btn_Print
             // 
-            this.btn_Print.Location = new System.Drawing.Point(37, 231);
+            this.btn_Print.Location = new System.Drawing.Point(56, 355);
+            this.btn_Print.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Print.Name = "btn_Print";
-            this.btn_Print.Size = new System.Drawing.Size(581, 107);
+            this.btn_Print.Size = new System.Drawing.Size(872, 165);
             this.btn_Print.TabIndex = 9;
             this.btn_Print.Text = "button2";
             this.btn_Print.UseVisualStyleBackColor = true;
@@ -104,27 +111,29 @@
             // txt_ResultJson
             // 
             this.txt_ResultJson.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ResultJson.Location = new System.Drawing.Point(246, 103);
+            this.txt_ResultJson.Location = new System.Drawing.Point(369, 158);
+            this.txt_ResultJson.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_ResultJson.Multiline = true;
             this.txt_ResultJson.Name = "txt_ResultJson";
-            this.txt_ResultJson.Size = new System.Drawing.Size(372, 94);
+            this.txt_ResultJson.Size = new System.Drawing.Size(556, 142);
             this.txt_ResultJson.TabIndex = 10;
             this.txt_ResultJson.Text = "Teste";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(397, 24);
+            this.textBox1.Location = new System.Drawing.Point(596, 37);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 62);
+            this.textBox1.Size = new System.Drawing.Size(246, 93);
             this.textBox1.TabIndex = 11;
             this.textBox1.Text = "Teste";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 445);
+            this.ClientSize = new System.Drawing.Size(945, 685);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txt_ResultJson);
             this.Controls.Add(this.btn_Print);
@@ -133,8 +142,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Nome);
             this.Controls.Add(this.label3);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

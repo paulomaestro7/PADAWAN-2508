@@ -20,15 +20,8 @@
     <EmbeddedResource Update="Endereco - Copy.resx">
       <DependentUpon>Endereco.resx</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Update="Form1 - Copy %282%29.resx">
-      <DependentUpon>Form1.resx</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Form1 - Copy - Copy.resx">
-      <DependentUpon>Form1 - Copy.resx</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Form1 - Copy.resx">
-      <DependentUpon>Form1.resx</DependentUpon>
-    </EmbeddedResource>
+
+    
   </ItemGroup>
 
 </Project>

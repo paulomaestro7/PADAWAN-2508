@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Ferramentas;
+using Models;
+using System;
 using System.Windows.Forms;
 
 namespace Grupo_3_WFA
@@ -17,5 +12,25 @@ namespace Grupo_3_WFA
             InitializeComponent();
         }
 
+        private void btn_Gravar_Click(object sender, EventArgs e)
+        {
+            var cliente = new ClienteG3();
+
+            cliente.Nome = txt_Nome.Text;
+            cliente.Telefone = txt_Telefone.Text;
+
+            GravarClientesG3.Gravar(cliente);
+
+            txt_Nome.Text = "";
+            txt_Telefone.Text = "";
+
+            lbl_Confirma.Text = "Gravado com sucesso!";
+        }
+
+        private void btn_zerar_Click(object sender, EventArgs e)
+        {
+            GravarClientesG3.Apagar();
+            lbl_Apagar.Text = "Arquivo apagado com sucesso!";
+        }
     }
 }
