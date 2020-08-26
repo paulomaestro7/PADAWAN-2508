@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Grupo_5_WFA
 {
-    static class Program
+    static class ProgramG5
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -17,7 +17,7 @@ namespace Grupo_5_WFA
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCliente());
+            Application.Run(new FormClienteG5());
         }
     }
 }

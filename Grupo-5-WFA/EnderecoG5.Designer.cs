@@ -1,6 +1,6 @@
 ﻿namespace Grupo_5_WFA
 {
-	partial class Endereco
+	partial class EnderecoG5
 	{
 		/// <summary>
 		/// Required designer variable.

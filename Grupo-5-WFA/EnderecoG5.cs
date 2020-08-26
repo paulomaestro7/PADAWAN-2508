@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Grupo_5_WFA
 {
-	public partial class Endereco : Form
+	public partial class EnderecoG5 : Form
 	{
-		public Endereco()
+		public EnderecoG5()
 		{
 			InitializeComponent();
 		}

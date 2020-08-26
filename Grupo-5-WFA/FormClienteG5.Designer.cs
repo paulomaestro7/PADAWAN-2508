@@ -1,6 +1,6 @@
 ﻿namespace Grupo_5_WFA
 {
-    partial class FormCliente
+    partial class FormClienteG5
     {
         /// <summary>
         ///  Required designer variable.
