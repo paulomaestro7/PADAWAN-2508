@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Grupo_2_WFA
+namespace Grupo_5_WFA
 {
-    static class Program
+    static class ProgramG5
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -17,7 +17,8 @@ namespace Grupo_2_WFA
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Cliente());
+            Application.Run(new FormClienteG5());
+            Application.Run(new FormEnderecoG5());
         }
     }
 }

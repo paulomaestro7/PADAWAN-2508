@@ -3,19 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Grupo_5_WFA
+namespace Grupo_2_WFA
 {
-    public partial class Form1 : Form
+    public partial class Cliente : Form
     {
-        public Form1()
+        public Cliente()
         {
             InitializeComponent();
         }
-
     }
 }

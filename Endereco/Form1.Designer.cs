@@ -1,4 +1,4 @@
-﻿namespace Grupo_5_WFA
+﻿namespace Endereco
 {
     partial class Form1
     {
