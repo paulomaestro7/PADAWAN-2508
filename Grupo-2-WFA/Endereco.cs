@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Grupo_2_WFA.Entitys;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,16 +11,11 @@ using System.Windows.Forms;
 
 namespace Grupo_2_WFA
 {
-    public partial class Form1 : Form
+    public partial class Endereco : Form
     {
-        public Form1()
+        public Endereco()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
