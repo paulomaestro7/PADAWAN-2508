@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Grupo_3_WFA
 {
-    static class Program
+    static class ProgramG3
     {
         /// <summary>
         ///  The main entry point for the application.
