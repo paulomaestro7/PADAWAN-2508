@@ -35,5 +35,10 @@ namespace PADAWAN_TESTE_NINJA
 
             File.WriteAllText(@"c:\Temp\texte.log", txt_ResultJson.Text);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

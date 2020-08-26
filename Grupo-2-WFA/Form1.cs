@@ -17,5 +17,9 @@ namespace Grupo_2_WFA
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
