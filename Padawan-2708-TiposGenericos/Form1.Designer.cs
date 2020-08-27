@@ -66,6 +66,7 @@
             // Txt_Remover
             // 
             this.Txt_Remover.Location = new System.Drawing.Point(222, 42);
+            this.Txt_Remover.Multiline = true;
             this.Txt_Remover.Name = "Txt_Remover";
             this.Txt_Remover.Size = new System.Drawing.Size(150, 23);
             this.Txt_Remover.TabIndex = 1;
